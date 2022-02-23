@@ -1,0 +1,9 @@
+[Unit]
+Description=My Shell Script
+
+[Service]
+ExecStart=/usr/bin/script.sh
+ExecStop=/usr/bin/shutdownscript.sh
+
+[Install]
+WantedBy=multi-user.target
